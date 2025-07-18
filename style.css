@@ -1,0 +1,29 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body{
+
+display: flex;
+height:100vh;
+justify-content: center;
+align-items: center;
+background-color:rgb(187, 172, 172);
+
+}
+
+.container{
+display: flex;
+max-width: 500px;
+height:300px;
+background-color:rgb(241, 143, 143);
+justify-content:space-around;
+flex-direction: column;
+}
+
+form{
+display: flex;
+flex-direction: column;
+}
